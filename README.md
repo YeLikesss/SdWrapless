@@ -11,6 +11,11 @@
 
 &emsp;&emsp;3. 提取后文件放在游戏路径下`SdWrap_Extract`文件夹中
 
+## 常见问题
+&emsp;&emsp;Q: 提取成功后替换游戏文件依旧无法运行
+
+&emsp;&emsp;A: 游戏内有二次验证, 需要自行处理
+
 ## 已通过测试版本与加密类型(其他的没找到测试源)
 &emsp;&emsp;SdWrapV4+
 
