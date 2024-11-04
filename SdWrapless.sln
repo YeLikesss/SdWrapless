@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdWrapCore", "SdWrapCore\SdWrapCore.csproj", "{B0F3AF8E-2D53-4668-8AF5-21DA0F39CC31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdWraplessGUI", "SdWraplessGUI\SdWraplessGUI.csproj", "{58969D7A-8BBA-4906-A1FF-E203079B6DDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleExecute", "ConsoleExecute\ConsoleExecute.csproj", "{693D34D8-D833-4E35-8950-6F8710F8BD4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0F3AF8E-2D53-4668-8AF5-21DA0F39CC31}.Debug|x64.ActiveCfg = Debug|x64
+		{B0F3AF8E-2D53-4668-8AF5-21DA0F39CC31}.Debug|x64.Build.0 = Debug|x64
+		{B0F3AF8E-2D53-4668-8AF5-21DA0F39CC31}.Release|x64.ActiveCfg = Release|x64
+		{B0F3AF8E-2D53-4668-8AF5-21DA0F39CC31}.Release|x64.Build.0 = Release|x64
+		{58969D7A-8BBA-4906-A1FF-E203079B6DDF}.Debug|x64.ActiveCfg = Debug|x64
+		{58969D7A-8BBA-4906-A1FF-E203079B6DDF}.Debug|x64.Build.0 = Debug|x64
+		{58969D7A-8BBA-4906-A1FF-E203079B6DDF}.Release|x64.ActiveCfg = Release|x64
+		{58969D7A-8BBA-4906-A1FF-E203079B6DDF}.Release|x64.Build.0 = Release|x64
+		{693D34D8-D833-4E35-8950-6F8710F8BD4C}.Debug|x64.ActiveCfg = Debug|x64
+		{693D34D8-D833-4E35-8950-6F8710F8BD4C}.Debug|x64.Build.0 = Debug|x64
+		{693D34D8-D833-4E35-8950-6F8710F8BD4C}.Release|x64.ActiveCfg = Release|x64
+		{693D34D8-D833-4E35-8950-6F8710F8BD4C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37877D76-DCCF-4D86-9782-8C1506DC1CC9}
+	EndGlobalSection
+EndGlobal
