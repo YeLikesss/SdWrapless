@@ -107,7 +107,7 @@ namespace SdWrapCore.SdWrap
                             }
                             else
                             {
-                                errMsg = "原始Exe文件不存在";
+                                errMsg = "游戏EXE文件不存在";
                             }
                         }
                         else
@@ -146,7 +146,7 @@ namespace SdWrapCore.SdWrap
                             }
                             else
                             {
-                                errMsg = "主程序不是PE文件";
+                                errMsg = "游戏主程序不是合法EXE文件";
                             }
                         }
                     }
@@ -157,12 +157,12 @@ namespace SdWrapCore.SdWrap
                 }
                 else
                 {
-                    errMsg = "SdWrap仅支持32位";
+                    errMsg = "SdWrap主程序仅支持32位";
                 }
             }
             else
             {
-                errMsg = "文件不存在";
+                errMsg = "SdWrap主程序文件不存在";
             }
 
             this.mLastError = errMsg;
