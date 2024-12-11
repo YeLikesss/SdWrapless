@@ -39,6 +39,7 @@
             System.Windows.Forms.Label labelSdWrapConfigSize;
             System.Windows.Forms.Label labelSdWrapSize;
             System.Windows.Forms.Label labelVersion;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             tbFilePath = new System.Windows.Forms.TextBox();
             lvSdWrapPatch = new System.Windows.Forms.ListView();
             tbSdWrapMode = new System.Windows.Forms.TextBox();
@@ -124,7 +125,7 @@
             gbSdWrapInfo.Location = new System.Drawing.Point(12, 50);
             gbSdWrapInfo.Name = "gbSdWrapInfo";
             gbSdWrapInfo.Padding = new System.Windows.Forms.Padding(0, 0, 0, 3);
-            gbSdWrapInfo.Size = new System.Drawing.Size(760, 304);
+            gbSdWrapInfo.Size = new System.Drawing.Size(760, 454);
             gbSdWrapInfo.TabIndex = 1;
             gbSdWrapInfo.TabStop = false;
             // 
@@ -139,7 +140,7 @@
             lvSdWrapPatch.Location = new System.Drawing.Point(6, 128);
             lvSdWrapPatch.Name = "lvSdWrapPatch";
             lvSdWrapPatch.ShowGroups = false;
-            lvSdWrapPatch.Size = new System.Drawing.Size(747, 169);
+            lvSdWrapPatch.Size = new System.Drawing.Size(747, 319);
             lvSdWrapPatch.TabIndex = 16;
             lvSdWrapPatch.UseCompatibleStateImageBehavior = false;
             lvSdWrapPatch.View = System.Windows.Forms.View.Details;
@@ -311,7 +312,7 @@
             // 
             btnExtract.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
             btnExtract.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            btnExtract.Location = new System.Drawing.Point(674, 360);
+            btnExtract.Location = new System.Drawing.Point(674, 510);
             btnExtract.Name = "btnExtract";
             btnExtract.Size = new System.Drawing.Size(98, 40);
             btnExtract.TabIndex = 2;
@@ -325,17 +326,18 @@
             AllowDrop = true;
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(784, 412);
+            ClientSize = new System.Drawing.Size(784, 562);
             Controls.Add(btnExtract);
             Controls.Add(gbSdWrapInfo);
             Controls.Add(gbViewFile);
             DoubleBuffered = true;
+            Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             ImeMode = System.Windows.Forms.ImeMode.Disable;
-            MinimumSize = new System.Drawing.Size(800, 450);
+            MinimumSize = new System.Drawing.Size(800, 600);
             Name = "MainForm";
             SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            Text = "SdWrapless - 20241104";
+            Text = "SdWrapless - 20241212";
             DragDrop += MainForm_DragDrop;
             DragEnter += MainForm_DragEnter;
             gbViewFile.ResumeLayout(false);
